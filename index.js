@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
-let script = ('./testScript.js')
+const script = require('./testScript')
+
 app.get('/', (req, res) => {
-    script()
+    // script.myFunFunction()
     res.send('Hello World')
 });
 

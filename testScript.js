@@ -1,3 +1,3 @@
-export function myFunFunction() {
+module.export = (myFunFunction)  => {
 console.log('Testing')
 }
