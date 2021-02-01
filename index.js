@@ -3,7 +3,7 @@ const app = express()
 const script = require('./testScript')
 
 app.get('/', (req, res) => {
-    // script.myFunFunction()
+    script.myFunFunction()
     res.send('Hello World')
 });
 
